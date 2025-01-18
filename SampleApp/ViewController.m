@@ -38,7 +38,7 @@
 @implementation ViewController
 
 /**
- * init 不执行解决方案
+ * init 不执行解决方案，但建议应该顺势而为，初始化方法放到initWithCoder中，用initWithCoder替代 init 方法
  * @see https://time.geekbang.org/course/detail/100025901-90974
  * @see https://segmentfault.com/n/1330000022494782
  */
@@ -49,6 +49,14 @@
     }
     return self;
 }
+- (instancetype)initWithCoder:(NSCoder *)coder {
+    self = [super initWithCoder:coder];
+    if (self) {
+        // 在此处执行初始化操作
+    }
+    return self;
+}
+
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
 }
