@@ -87,10 +87,10 @@
     
     self.view.backgroundColor = [UIColor whiteColor];
     
-    TestView *view2 = [[TestView alloc] init];
-    view2.backgroundColor = [UIColor greenColor];
-    view2.frame = CGRectMake(150, 150, 150, 150);
-    [self.view addSubview:view2];
+//    TestView *view2 = [[TestView alloc] init];
+//    view2.backgroundColor = [UIColor greenColor];
+//    view2.frame = CGRectMake(150, 150, 150, 150);
+//    [self.view addSubview:view2];
     
 //    UIView *view = [[UIView alloc] init];
 //    view.backgroundColor = [UIColor redColor];
