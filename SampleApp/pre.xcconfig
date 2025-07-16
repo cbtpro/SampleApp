@@ -1,0 +1,10 @@
+//
+//  pre.xcconfig
+//  SampleApp
+//
+//  Created by 陈碧滔 on 2025/3/13.
+//
+
+PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.myapp.pre
+APP_DISPLAY_NAME=OKRM预发布
+API_BASE_URL = https://pre.api.myapp.com

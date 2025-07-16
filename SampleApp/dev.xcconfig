@@ -1,0 +1,10 @@
+//
+//  dev.xcconfig
+//  SampleApp
+//
+//  Created by 陈碧滔 on 2025/3/13.
+//
+
+PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.myapp.dev
+APP_DISPLAY_NAME=OKRM开发
+API_BASE_URL = https://dev.api.myapp.com

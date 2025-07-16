@@ -1,0 +1,10 @@
+//
+//  staging.xcconfig
+//  SampleApp
+//
+//  Created by 陈碧滔 on 2025/3/13.
+//
+
+PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.myapp.staging
+APP_DISPLAY_NAME=OKRM Staging
+API_BASE_URL = https://staging.api.myapp.com

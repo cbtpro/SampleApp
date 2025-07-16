@@ -1,0 +1,10 @@
+//
+//  test.xcconfig
+//  SampleApp
+//
+//  Created by 陈碧滔 on 2025/3/13.
+//
+
+PRODUCT_BUNDLE_IDENTIFIER = com.mycompany.myapp.test
+APP_DISPLAY_NAME=OKRM测试
+API_BASE_URL = https://test.api.myapp.com
